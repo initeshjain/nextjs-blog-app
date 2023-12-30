@@ -1,0 +1,15 @@
+.share_btns {
+  margin: 0 0 3rem 0;
+  padding: 0;
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.icon {
+  height: 1.2em;
+  width: 1.2em;
+  border: 1px solid #ccc;
+  border-radius: 50px;
+  padding: 10px;
+}

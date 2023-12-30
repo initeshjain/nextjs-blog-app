@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+.app {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+}
+
+.app_loading {
+  filter: blur(4px);
+  pointer-events: none;
+}
+
+.main_content_container {
+  margin-top: 5rem;
+  flex-grow: 1;
+}
+
+p {
+  margin-top: 10px;
+}
+
+* {
+  font-family: 'Rubik', sans-serif;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  transition: 0.3s ease;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  letter-spacing: 0.3px;
+}
+
+blockquote {
+  background-color: aliceblue;
+}
+
+@media (width <=600px) {
+  .main_content_container {
+    margin-bottom: 3rem;
+  }
+}
+
+html {
+  overflow-y: scroll;
+  /* overflow-x: hidden; */
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+tbody td {
+  padding: 5px;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #9b96fa;
+  color: #fff;
+}
+
+pre {
+  font-family: monospace;
+  background-color: rgb(2, 2, 66);
+  letter-spacing: 1px;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  overflow-x: scroll;
+  font-size: 14px;
+}
+
+code {
+  background-color: #f0f0f0;
+  border-radius: 3px;
+  font-size: 85%;
+  padding: 2px 4px;
+}

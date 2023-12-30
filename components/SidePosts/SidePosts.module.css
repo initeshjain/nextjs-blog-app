@@ -1,0 +1,66 @@
+.section_heading {
+  margin-bottom: .5rem;
+}
+
+.card {
+  display: flex;
+  flex: column;
+  border-radius: 8px;
+  margin: 1rem 0;
+  border: 0.5px solid #ccc;
+}
+
+.header_image {
+  height: auto;
+}
+
+.text_container {
+  padding: .5rem;
+}
+
+.title {
+  font-weight: 500;
+}
+
+.card a {
+  color: rgb(255, 0, 80);
+}
+
+.card a:hover {
+  color: blue;
+}
+
+.card_footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 0.5rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: row;
+}
+
+.btn {
+  padding: 0.5rem;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 20px;
+  border: 0.5px solid #ccc;
+  background-color: rgb(255, 0, 80);
+  color: white;
+}
+
+.searchbox {
+  padding: 0.5rem;
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 10px;
+  border: 0.5px solid #ccc;
+}
+
+.no_data_msg {
+  text-align: center;
+  width: 100%;
+  margin-top: 3rem;
+}

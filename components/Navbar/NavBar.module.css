@@ -1,0 +1,21 @@
+.nav {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  backdrop-filter: blur(25px);
+  /* background-color: rgba(226, 255, 99, 0.8); */
+  background-color: #ff0050;
+  font-size: 1.2em;
+}
+
+.nav a {
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}

@@ -1,0 +1,37 @@
+.suggestion_container {
+  margin-top: 1rem;
+}
+
+.heading {
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+.link_container {
+  width: 100%;
+}
+
+.link_text {
+  color: #ff0050;
+  font-size: 14px;
+  font-weight: bold;
+  word-wrap: break-word;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  padding: 5px;
+  max-width: 100%;
+  word-wrap: break-word;
+}
+
+.link_text:hover {
+  color: grey;
+}
+
+.discount {
+  border: 1px solid #ff0050;
+  color: white;
+  background-color: #ff0050;
+  border-radius: 8px;
+  padding: 3px;
+  text-align: center;
+}

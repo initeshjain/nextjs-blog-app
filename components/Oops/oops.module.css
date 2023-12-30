@@ -1,0 +1,22 @@
+.no_data_found {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 80vh;
+  align-items: center;
+}
+
+.view_all_button {
+  background-color: rgb(255, 0, 80);
+  color: white;
+  border: 1px solid;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  border-radius: 10px;
+}
+
+.view_all_button:hover {
+  background-color: white;
+  color: rgb(255, 0, 80);
+  border: 1px solid rgb(255, 0, 80);
+}

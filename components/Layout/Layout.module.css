@@ -1,0 +1,30 @@
+.layout {
+  margin: 2rem;
+  min-height: 100vh;
+}
+
+/* .layout {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+  padding: 1rem;
+  width: 100vw;
+  border: 2px solid red;
+} */
+
+/* media queries */
+@media (width < 800px) {
+  .layout {
+    margin: 1rem;
+    /* padding: 1rem; */
+  }
+}
+
+/* media queries */
+@media (width < 700px) {
+  .layout {
+    /* margin: 2rem 0.2rem; */
+    /* padding: 1rem; */
+  }
+}

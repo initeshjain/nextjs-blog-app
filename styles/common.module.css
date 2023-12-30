@@ -1,0 +1,42 @@
+.coming_soon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20rem 0;
+}
+
+/* About us, contact us, terms and condition, and privacy policy page CSS */
+
+.main_div {
+  margin: 2rem 20rem;
+}
+
+.main_div h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.main_div main {
+  margin-bottom: 5rem;
+}
+
+.main_div main p {
+  margin-bottom: 2rem;
+}
+
+.main_div main p a {
+  color: rgb(255, 0, 80);
+}
+
+.contact_now {
+  margin-top: 3rem;
+  font-weight: bold;
+  font-size: larger;
+}
+
+/* media queries */
+@media (width <= 768px) {
+  .main_div {
+    margin: 2rem 3rem;
+  }
+}

@@ -1,0 +1,29 @@
+.searchbox_container {
+  margin-bottom: 3rem;
+  margin-top: 1.5rem;
+  width: 80%;
+}
+
+.form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.searchbar {
+  padding: 0.8rem;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 0px;
+  border: 0.5px solid #ccc;
+  width: 60%;
+}
+
+.btn {
+  padding: 0.9rem;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 20px;
+  border: 0.5px solid #ccc;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}

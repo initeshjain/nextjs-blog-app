@@ -1,0 +1,45 @@
+.icon {
+  height: 1.5em;
+  width: 1.5em;
+}
+
+.main_div {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.pagination {
+  border: 0.5px solid #ccc;
+  display: flex;
+  flex-direction: row;
+  border-radius: 5px;
+  border-style: ridge;
+}
+
+.btn {
+  padding: 0.5rem;
+  width: 3em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #9b96fa;
+  color: white;
+}
+
+.active {
+  padding: 0.5rem;
+  width: 3em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+  background-color: #9b96fa;
+}
